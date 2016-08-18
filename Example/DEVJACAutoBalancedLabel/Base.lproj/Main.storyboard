@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yov-Tk-gKz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6b-nX-Nqc">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1081"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why can't you just make the label smaller?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZH4-nA-xLs">
+                                                <rect key="frame" x="20" y="387" width="335" height="48"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FK-vE-yJb">
+                                                <rect key="frame" x="20" y="523" width="335" height="143.5"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Because I don't know beforehand what amount of text will be set to the label. It may fit on a single line, it may not, it may need to reduce the font size because even two line are not enough, etc</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysw-2D-4mQ">
+                                                <rect key="frame" x="20" y="850" width="335" height="95.5"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Handling the line breaks manually is probably what you're going to have to do. Of course, you could create a label subclass that handles it for you.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text that does not fit on a single line so wraps" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKR-92-adZ">
+                                                <rect key="frame" x="20" y="20" width="335" height="48"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Oq-te-Prq">
+                                                <rect key="frame" x="20" y="156" width="335" height="95.5"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Of course, I don't want to handle the line break manually. I want the label to automatically balance the lines so their lengths are as close as possible.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text that does not fit on a single line so wraps" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lF9-uV-fU7" customClass="DEVJACAutoBalancedLabel">
+                                                <rect key="frame" x="20" y="88" width="335" height="48"/>
+                                                <color key="backgroundColor" red="1" green="0.59876932120000004" blue="0.40639700940000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql2-c4-TuS" customClass="DEVJACAutoBalancedLabel">
+                                                <rect key="frame" x="20" y="271.5" width="335" height="95.5"/>
+                                                <color key="backgroundColor" red="1" green="0.59876932120000004" blue="0.40639700940000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <string key="text">Of course, I don't want to handle the line break manually. I want the label to automatically balance the lines so their lengths are as close as possible.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why can't you just make the label smaller?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qd-aX-C41" customClass="DEVJACAutoBalancedLabel">
+                                                <rect key="frame" x="20" y="455" width="335" height="48"/>
+                                                <color key="backgroundColor" red="1" green="0.59876932120000004" blue="0.40639700940000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-34-f7F" customClass="DEVJACAutoBalancedLabel">
+                                                <rect key="frame" x="20" y="686.5" width="335" height="143.5"/>
+                                                <color key="backgroundColor" red="1" green="0.59876932120000004" blue="0.40639700940000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <string key="text">Because I don't know beforehand what amount of text will be set to the label. It may fit on a single line, it may not, it may need to reduce the font size because even two line are not enough, etc</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Da-yX-8rl" customClass="DEVJACAutoBalancedLabel">
+                                                <rect key="frame" x="20" y="965.5" width="335" height="95.5"/>
+                                                <color key="backgroundColor" red="1" green="0.59876932120000004" blue="0.40639700940000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <string key="text">Handling the line breaks manually is probably what you're going to have to do. Of course, you could create a label subclass that handles it for you.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="lF9-uV-fU7" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="13v-H8-rOj"/>
+                                            <constraint firstItem="0Da-yX-8rl" firstAttribute="top" secondItem="ysw-2D-4mQ" secondAttribute="bottom" constant="20" id="1T8-fO-nz6"/>
+                                            <constraint firstAttribute="trailing" secondItem="5Oq-te-Prq" secondAttribute="trailing" constant="20" id="4jE-Ez-LJ4"/>
+                                            <constraint firstAttribute="bottom" secondItem="0Da-yX-8rl" secondAttribute="bottom" constant="20" id="IYo-01-kFB"/>
+                                            <constraint firstAttribute="trailing" secondItem="ql2-c4-TuS" secondAttribute="trailing" constant="20" id="Idd-MS-Owc"/>
+                                            <constraint firstItem="ZH4-nA-xLs" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="Ldq-oX-TpH"/>
+                                            <constraint firstItem="ql2-c4-TuS" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="NK8-W1-woT"/>
+                                            <constraint firstItem="ysw-2D-4mQ" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="Nly-FR-Swe"/>
+                                            <constraint firstItem="5Oq-te-Prq" firstAttribute="top" secondItem="lF9-uV-fU7" secondAttribute="bottom" constant="20" id="OhE-0H-TZN"/>
+                                            <constraint firstItem="5Qd-aX-C41" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="PT7-oh-nAE"/>
+                                            <constraint firstAttribute="trailing" secondItem="5Qd-aX-C41" secondAttribute="trailing" constant="20" id="Pi0-Zu-ojb"/>
+                                            <constraint firstItem="ZH4-nA-xLs" firstAttribute="top" secondItem="ql2-c4-TuS" secondAttribute="bottom" constant="20" id="QMT-Ke-idh"/>
+                                            <constraint firstAttribute="trailing" secondItem="lF9-uV-fU7" secondAttribute="trailing" constant="20" id="QMX-DV-jiZ"/>
+                                            <constraint firstItem="dKR-92-adZ" firstAttribute="top" secondItem="s6b-nX-Nqc" secondAttribute="top" constant="20" id="RNx-gz-cAb"/>
+                                            <constraint firstAttribute="trailing" secondItem="7FK-vE-yJb" secondAttribute="trailing" constant="20" id="RxD-Hx-AuC"/>
+                                            <constraint firstItem="ysw-2D-4mQ" firstAttribute="top" secondItem="5WD-34-f7F" secondAttribute="bottom" constant="20" id="VdD-kk-luf"/>
+                                            <constraint firstItem="lF9-uV-fU7" firstAttribute="top" secondItem="dKR-92-adZ" secondAttribute="bottom" constant="20" id="YJd-GI-Kel"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Da-yX-8rl" secondAttribute="trailing" constant="20" id="a8p-Lt-6Pi"/>
+                                            <constraint firstAttribute="trailing" secondItem="ysw-2D-4mQ" secondAttribute="trailing" constant="20" id="aDO-88-nFl"/>
+                                            <constraint firstItem="5Oq-te-Prq" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="auN-m4-qRw"/>
+                                            <constraint firstItem="5WD-34-f7F" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="cAb-tW-4FS"/>
+                                            <constraint firstItem="7FK-vE-yJb" firstAttribute="top" secondItem="5Qd-aX-C41" secondAttribute="bottom" constant="20" id="cNo-en-Rdh"/>
+                                            <constraint firstItem="5WD-34-f7F" firstAttribute="top" secondItem="7FK-vE-yJb" secondAttribute="bottom" constant="20" id="egg-Qc-hK5"/>
+                                            <constraint firstAttribute="trailing" secondItem="5WD-34-f7F" secondAttribute="trailing" constant="20" id="haK-3E-6DX"/>
+                                            <constraint firstItem="dKR-92-adZ" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="l05-vV-ckT"/>
+                                            <constraint firstItem="ql2-c4-TuS" firstAttribute="top" secondItem="5Oq-te-Prq" secondAttribute="bottom" constant="20" id="n4Q-Qk-EWN"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZH4-nA-xLs" secondAttribute="trailing" constant="20" id="tq4-ve-4TB"/>
+                                            <constraint firstItem="0Da-yX-8rl" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="u5f-Nc-ezD"/>
+                                            <constraint firstItem="5Qd-aX-C41" firstAttribute="top" secondItem="ZH4-nA-xLs" secondAttribute="bottom" constant="20" id="win-eM-sA0"/>
+                                            <constraint firstAttribute="trailing" secondItem="dKR-92-adZ" secondAttribute="trailing" constant="20" id="z6d-Sg-Ufj"/>
+                                            <constraint firstItem="7FK-vE-yJb" firstAttribute="leading" secondItem="s6b-nX-Nqc" secondAttribute="leading" constant="20" id="zB1-hj-wAG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="s6b-nX-Nqc" secondAttribute="trailing" id="0bY-Pi-MnU"/>
+                                    <constraint firstItem="s6b-nX-Nqc" firstAttribute="leading" secondItem="yov-Tk-gKz" secondAttribute="leading" id="Bvl-or-zhM"/>
+                                    <constraint firstItem="s6b-nX-Nqc" firstAttribute="top" secondItem="yov-Tk-gKz" secondAttribute="top" id="HQU-LU-Jlb"/>
+                                    <constraint firstAttribute="bottom" secondItem="s6b-nX-Nqc" secondAttribute="bottom" id="VPc-vx-X0h"/>
+                                    <constraint firstItem="s6b-nX-Nqc" firstAttribute="width" secondItem="yov-Tk-gKz" secondAttribute="width" id="rFP-sB-pY9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yov-Tk-gKz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HBd-SB-9Ic"/>
+                            <constraint firstAttribute="trailing" secondItem="yov-Tk-gKz" secondAttribute="trailing" id="UXy-7x-3km"/>
+                            <constraint firstAttribute="bottom" secondItem="yov-Tk-gKz" secondAttribute="bottom" id="frh-jf-744"/>
+                            <constraint firstItem="yov-Tk-gKz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zDN-bc-C76"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180.5" y="343.5"/>
+        </scene>
+    </scenes>
+</document>
