@@ -22,7 +22,7 @@ Maybe later.
 
 ### License?
 MIT or… do what ever you want with it but if you can mention me somewhere or at least send me a tweet saying "thanks" I will appreciate it
-@dev_ajc
+@dev_jac
 
 ### Favorite Pizza toppin
 Pepperoni
