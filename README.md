@@ -6,9 +6,12 @@ Dead simple Objective-C UILabel subclass that balance text horizontally across s
 It's dead simple, it just overrides this method `- (void)drawTextInRect:(CGRect)rect` and makes the UILabel belives it is actually less wider as it is so the text is rendered in a smaller Rect balancing the number of words per line. 
 
 ### How does it look like?
-
+![Example 1](https://raw.githubusercontent.com/Julioacarrettoni/DEVJACAutoBalancedLabel/master/Example1.png)
+![Example 2](https://raw.githubusercontent.com/Julioacarrettoni/DEVJACAutoBalancedLabel/master/Example2.png)
+![Example 3](https://raw.githubusercontent.com/Julioacarrettoni/DEVJACAutoBalancedLabel/master/Example3.png)
 ### Installation?
 Just drag and drop `DEVJACAutoBalancedLabel.h` and `DEVJACAutoBalancedLabel.m`to your project
+Cocoapods and Carthage coming soon (or never as it takes more time than copy pasting the whole code into your project)
 
 ### Usage?
 On IB or when creating UILabels, just make it an instance of `DEVJACAutoBalancedLabel` instead of `UILabel``
