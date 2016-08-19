@@ -25,7 +25,7 @@ Dead simple Objective-C UILabel subclass that balance text horizontally across s
   # s.screenshots     = 'https://raw.githubusercontent.com/Julioacarrettoni/DEVJACAutoBalancedLabel/master/Example/Example1.png', 'https://raw.githubusercontent.com/Julioacarrettoni/DEVJACAutoBalancedLabel/master/Example/Example2.png', 'https://raw.githubusercontent.com/Julioacarrettoni/DEVJACAutoBalancedLabel/master/Example/Example3.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julio Andres' => 'julioacarrettoni+pod@gmail.com' }
-  s.source           = { :git => 'https://github.com/Julioacarrettoni/DEVJACAutoBalancedLabel.git', :tag => 'v0.1' }
+  s.source           = { :git => 'https://github.com/Julioacarrettoni/DEVJACAutoBalancedLabel.git', :tag => '0.1' }
   # s.social_media_url = 'https://twitter.com/dev_jac'
 
   s.ios.deployment_target = '6.0'
