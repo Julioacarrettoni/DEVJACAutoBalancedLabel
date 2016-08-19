@@ -24,8 +24,8 @@
 		436518191D66228A008D0F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4365181C1D66228A008D0F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4365181E1D66228A008D0F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		436518271D662932008D0F24 /* DEVJACAutoBalancedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEVJACAutoBalancedLabel.h; path = ../../DEVJACAutoBalancedLabel.h; sourceTree = "<group>"; };
-		436518281D662932008D0F24 /* DEVJACAutoBalancedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEVJACAutoBalancedLabel.m; path = ../../DEVJACAutoBalancedLabel.m; sourceTree = "<group>"; };
+		436518271D662932008D0F24 /* DEVJACAutoBalancedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEVJACAutoBalancedLabel.h; path = ../../DEVJACAutoBalancedLabel/DEVJACAutoBalancedLabel.h; sourceTree = "<group>"; };
+		436518281D662932008D0F24 /* DEVJACAutoBalancedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEVJACAutoBalancedLabel.m; path = ../../DEVJACAutoBalancedLabel/DEVJACAutoBalancedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
